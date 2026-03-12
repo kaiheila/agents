@@ -1,14 +1,20 @@
-# Agents
+# Agents 仓库
+存放所有共享的 Agent\MCP\Skill
 
-Agent Skills 仓库，兼容 [CC Switch](https://github.com/farion1231/cc-switch)、Claude Code、Codex、Cursor 等工具。
+## Agent
 
-## 通过 CC Switch 安装
+## MCP
+
+##
+Agent Skills，兼容 [CC Switch](https://github.com/farion1231/cc-switch)、Claude Code、Codex、Cursor 等工具。
+
+### 通过 CC Switch 安装
 
 1. 打开 CC Switch → Skills → 仓库管理
 2. 添加仓库：`kaiheila/agents`
 3. 浏览并一键安装所需 Skills
 
-## 通过 AI Agent 安装
+### 通过 AI Agent 安装
 
 项目中已安装 `skill-installer` 后，直接对 AI 说：
 
@@ -16,7 +22,7 @@ Agent Skills 仓库，兼容 [CC Switch](https://github.com/farion1231/cc-switch
 
 > "帮我安装 init-agent-docs"
 
-## Skills 列表
+### Skills 列表
 
 | Skill | 说明 |
 |-------|------|
