@@ -154,6 +154,69 @@
 - [容易出错的步骤和注意事项]
 ```
 
+## README.md 模板
+
+````markdown
+# 项目名
+
+一句话说明项目用途和技术栈。
+
+## 环境要求
+
+- `<运行时 / SDK 版本>`
+- `<包管理器>`
+- `<外部依赖或访问条件>`
+
+## 安装与初始化
+
+### 1. 获取代码
+
+```bash
+git clone <repo-url>
+cd <repo-dir>
+```
+````
+
+### 2. 安装依赖
+
+```bash
+<install command>
+```
+
+### 3. 初始化本地环境
+
+```bash
+<init command>
+```
+
+如无显式初始化步骤，写明“无额外初始化，安装依赖后即可运行”。
+
+## 本地开发
+
+```bash
+<dev command>
+```
+
+## 构建 / 测试
+
+```bash
+<build command>
+<test command>
+```
+
+## 常见说明
+
+- 私有依赖、权限、网络环境要求
+- 不应提交的本地配置
+- 初次运行常见问题
+
+## 相关文档
+
+- `AGENTS.md` -- Agent 入口文档
+- `docs/...` -- 深入文档
+
+````
+
 ## AGENTS.md 模板
 
 ```markdown
@@ -191,7 +254,7 @@
 - `docs/domains/<文档>.md` -- 说明
 - `docs/conventions/<文档>.md` -- 说明
 - `docs/workflows/<文档>.md` -- 说明
-```
+````
 
 ## CLAUDE.md 模板
 
